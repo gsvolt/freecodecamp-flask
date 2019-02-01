@@ -5,7 +5,12 @@
         <title>Flask Tutorial</title>
     </head>
     <body>
+        {% extends "template.html" %}
+        {% block content %}
+
         <h1> Flask Tutorial </h1>
         <p> Flask is fun! </p>
+
+        {% endblock %}
     </body>
 </html>
