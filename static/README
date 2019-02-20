@@ -1,3 +1,7 @@
+# pre-requisite:
+# from virtualenv:
+# pip3 install libsass   # https://sass.github.io/libsass-python/
+
 # fluid typography from here:
 # https://css-tricks.com/snippets/css/fluid-typography/
 
