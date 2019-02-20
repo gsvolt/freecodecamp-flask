@@ -1,0 +1,5 @@
+# fluid typography from here:
+# https://css-tricks.com/snippets/css/fluid-typography/
+
+# Convert Sass to Css
+python3 sass_to_css.py
