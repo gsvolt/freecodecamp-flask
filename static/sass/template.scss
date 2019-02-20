@@ -1,0 +1,13 @@
+$logo_backgroundcolor: #0D122B;
+$logo_color: white;
+$logo_padding: 10px;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    background-color: $logo_backgroundcolor;
+    padding: $logo_padding;
+    color: $logo_color;
+};
