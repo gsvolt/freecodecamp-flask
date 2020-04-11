@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+
+{% block content %}
+<form action="{{ url_for('contact') }}" method="post">
+	<input type="text" name="name" placeholder="enter name">
+	<button>submit</button>
+</form>
+{% if names != None %}
+	{% for name in names: %}
+		<p>{{ name }}</p>
+	{% endfor%} 
+{% endif %}
+
+{% endblock %}
